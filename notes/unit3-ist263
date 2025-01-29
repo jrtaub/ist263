@@ -1,0 +1,19 @@
+!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tittle</title>
+    </head>
+    <body>
+        <h1 id="linktitle">Links</h1>
+        <p><a href="https://google.com">Google</a></p>
+        <p><a href="https://masterthieves.net">Master Theieves</a></p>
+        <p><a href="basichtml.html">Basic HTML</a></p>
+        <p><a href="../html-basics.html">Basic HTML one level</a></p>
+        <a href="../b/e/page.html">Google</a>
+
+        <a href="#linktitle">Go To Title</a>
+
+        <img src="../images/otto.pmg" alt="Otto">
+    </body>
+    </html>
