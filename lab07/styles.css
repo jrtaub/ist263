@@ -10,20 +10,27 @@ body {
 
 h1, h2, h3, h4 {color: #0047AB;}
 
-a { color: #eeeae7; 
-    text-decoration: none;
-}
-
-a:hover {
-    color: #FFCC00; 
-    text-decoration: underline;
-}
-
 
 nav {
     background-color: #518fb9; 
     padding: 10px;
+    margin-bottom: 30px;
 }
+
+nav a { color: #eeeae7; 
+    text-decoration: none;
+}
+
+nav a:hover {background-color: #b951a8;}
+
+
+
+
+
+
+
+
+
 
 nav ul {
     list-style-type: none;
