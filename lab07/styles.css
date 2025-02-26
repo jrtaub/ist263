@@ -17,9 +17,7 @@ nav {
     margin-bottom: 30px;
 }
 
-nav a { color: #eeeae7; 
-    text-decoration: none;
-}
+nav a { color: #eeeae7;}
 
 nav a:hover {background-color: #b951a8;}
 
