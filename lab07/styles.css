@@ -2,7 +2,8 @@
 body {
     background-color: #6eafd2; 
     color: #333333; 
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
+
   
 }
 
@@ -23,10 +24,11 @@ nav a { color: #eeeae7;
 nav a:hover {background-color: #b951a8;}
 
 
+tr.evenrow {background-color: LightSkyBlue;}
 
+h1 {font-size: 2em;}
 
-
-
+h2 {font-size: 1em;}
 
 
 
