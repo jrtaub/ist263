@@ -10,7 +10,7 @@ body {
 
 h1, h2, h3, h4 {color: #0047AB;}
 
-a { color: #E67E22; 
+a { color: #eeeae7; 
     text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ a:hover {
 
 
 nav {
-    background-color: #a11d82; 
+    background-color: #518fb9; 
     padding: 10px;
 }
 
