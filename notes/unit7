@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>More CSS</title>
+       <style>
+        h2 {background-color: #c6cad0;}
+        a:visited {color: #0a2110;}
+        </style>
+    </head>
+<body>
+    
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>More CSS</title>
+        <style>
+          body {background-image: url("otto.jpg");}
+
+        </style>
+       
+    </head>
+<body>
+    
+
+</body>
+</html>
