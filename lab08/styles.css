@@ -47,44 +47,106 @@ img {
     border-radius: 8px; 
 }
 
-.flex-container{display: flex;
+.flex-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Spaces address & links apart */
+    align-items: center; /* Aligns content vertically */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    background-color: #FFFFFF; /* White background */
     padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: #F5F5F5;
+    border-radius: 15px; /* Rounded corners */
+    max-width: 80%;
+    margin: 0 auto 30px auto; /* Centers and adds space */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.form-map-container{display:  flex;
+/* Address & Links Styling */
+.flex-container p {
+    margin: 5px 0;
+}
+
+.flex-container a {
+    color: #0047AB;
+    font-weight: bold;
+}
+
+.flex-container a:hover {
+    text-decoration: underline;
+}
+
+/* Second Row: Form & Map */
+.form-map-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFFFFF; /* White background */
     padding: 20px;
-    margin: 20px;
+    margin: 0 auto 30px auto;
+    max-width: 80%;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form and Map Individual Containers */
+.form-container, .map-container {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4D79D8; /* Blue button */
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3A5DB0; /* Darker blue hover effect */
+}
+
+/* Map Styling */
+.map-container iframe {
+    width: 100%;
+    height: 300px;
     border-radius: 10px;
-    background-color: #F5F5F5;}
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flex-container,
+    .form-map-container {
+        flex-direction: column;
+    }
 
+    .flex-container {
+        text-align: center;
+    }
 
-    .address-container {
-        background-color: #FFFFFF; /* White background */
-        padding: 20px;
-        border-radius: 15px; /* Rounded corners */
-        max-width: 80%;
-        margin: 0 auto 30px auto; /* Space between top/bottom */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    .form-container, .map-container {
+        width: 100%;
     }
-    
-    
-    .address-container p {
-        margin: 5px 0;
-    }
-    
-    .address-container a {
-        color: #0047AB;
-        font-weight: bold;
-    }
-    
-    .address-container a:hover {
-        text-decoration: underline;
-    }
-    
+}
