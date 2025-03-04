@@ -60,3 +60,31 @@ img {
     border-radius: 10px;
     background-color: #F5F5F5;}
 
+
+
+    .address-container {
+        background-color: #FFFFFF; /* White background */
+        padding: 20px;
+        border-radius: 15px; /* Rounded corners */
+        max-width: 80%;
+        margin: 0 auto 30px auto; /* Space between top/bottom */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    }
+    
+    /* Address & Contact Links */
+    .address-container p {
+        margin: 5px 0;
+    }
+    
+    .address-container a {
+        color: #0047AB;
+        font-weight: bold;
+    }
+    
+    .address-container a:hover {
+        text-decoration: underline;
+    }
+    
