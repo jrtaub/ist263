@@ -1,0 +1,42 @@
+
+body {
+    background-color: #6eafd2; 
+    color: #333333; 
+    font-family: Georgia, serif;
+}
+
+
+h1, h2, h3, h4 {color: #0047AB;}
+
+a {color: #cf3232;}
+
+nav {
+    background-color: #518fb9; 
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a { color: #eeeae7;}
+
+nav a:hover {background-color: #b951a8;}
+
+
+tr.evenrow {background-color: #83c6e8;}
+
+h1 {font-size: 2em;}
+
+h2 {font-size: 1em;}
+
+.copyright {
+    float: left;
+    
+}
+
+
+.new-text {
+    float: right;
+    
+}
+
+
+
