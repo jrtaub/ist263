@@ -151,7 +151,7 @@ form input[type="submit"]:hover {
 }
 
 
-.linkedin-logo {
+.flex-container img {
     width: 20px; 
     height: auto;
     display: inline-block;
