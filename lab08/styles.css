@@ -149,3 +149,12 @@ form input[type="submit"]:hover {
         width: 100%;
     }
 }
+
+
+.linkedin-logo {
+    width: 20px; 
+    height: auto;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 5px; 
+}
