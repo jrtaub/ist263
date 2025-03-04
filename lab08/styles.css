@@ -155,6 +155,6 @@ form input[type="submit"]:hover {
     width: 20px; 
     height: auto;
     display: inline-block;
-    vertical-align: middle; 
-    margin-right: 5px; 
+    vertical-align: left; 
+    margin-right: 10px; 
 }
