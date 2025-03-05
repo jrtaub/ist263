@@ -86,10 +86,7 @@ img {
         padding: 10px; 
         } 
 
-        .form-section {
-            margin-top: 5px; /* Reduce space at the top */
-            margin-bottom: 5px; /* Minimize space between sections */
-        }
+        
         
 
         .form-containser { 
@@ -97,6 +94,8 @@ img {
         flex-direction: column;
         margin-top: 2px;
         gap: 0px;
+        margin-top: 5px; /* Reduce space at the top */
+            margin-bottom: 5px; 
     
         } 
         .formlabel-container {
