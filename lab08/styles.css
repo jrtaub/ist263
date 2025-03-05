@@ -95,6 +95,7 @@ img {
         font-weight: bold; 
         align-items: right;
         line-height: 1;
+        gap: 6px;
         } 
     
         form input, form textarea { 
