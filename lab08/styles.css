@@ -169,12 +169,12 @@ img {
 
 .address-heading {
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .form-heading {
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .food-options {
