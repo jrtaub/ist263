@@ -92,10 +92,8 @@ img {
         .form-containser { 
         display: flex; 
         flex-direction: column;
-        margin-top: 2px;
-        gap: 0px;
-        margin-top: 5px; /* Reduce space at the top */
-            margin-bottom: 5px; 
+        margin-top: -20px; /* Moves the form higher */
+         padding-top: 0
     
         } 
         .formlabel-container {
