@@ -156,7 +156,7 @@ img {
 
 .social-links {
     margin-top: 5px; /* Reduce space above the LinkedIn & email */
-    display: flex;  /* Align email & LinkedIn side by side */
+      
     gap: 10px; /* Space between them */
 }
 
