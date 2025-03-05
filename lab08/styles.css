@@ -47,95 +47,196 @@ img {
     border-radius: 8px; 
 }
 
-.address-container {
-    background-color: #FFFFFF; /* White background */
-    padding: 20px;
-    border-radius: 15px; /* Rounded corners */
-    max-width: 80%;
-    margin: 0 auto 30px auto; /* Centers and adds spacing */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
-}
+.flex-container { 
 
-/* Address and Contact Links */
-.address-container p {
-    margin: 5px 0;
-}
+    display: flex;  
+    
+    justify-content: space-between;  
+    
+    align-items: center;  
+    
+    flex-wrap: wrap;  
+    
+    background-color: #FFFFFF;  
+    
+    padding: 20px; 
+    
+    border-radius: 15px;  
+    
+    max-width: 80%; 
+    
+    margin: 10px; 
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    
+    } 
+    
+     
+    
+     
+    
+    .flex-container p { 
+    
+    margin: 5px  
+    
+    } 
+    flex-container a:hover { 
 
-.address-container a {
-    color: #0047AB;
-    font-weight: bold;
-}
-
-.address-container a:hover {
-    text-decoration: underline;
-}
-
-/* LinkedIn Logo Styling */
-.linkedin-logo {
-    width: 18px; /* Smaller size */
-    height: auto;
-    display: inline-block; /* Keeps it inline with text */
-    vertical-align: middle; /* Aligns with text */
-    margin-right: 5px; /* Adds space between logo and text */
-}
-
-/* Form and Map Section */
-.form-map-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #FFFFFF; /* White background */
-    padding: 20px;
-    margin: 0 auto 30px auto;
-    max-width: 80%;
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Form and Map Individual Containers */
-.form-container, .map-container {
-    flex: 1;
-    padding: 20px;
-}
-
-/* Form Styling */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    font-weight: bold;
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-form input[type="submit"] {
-    background-color: #4D79D8; /* Blue button */
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: auto;
-}
-
-form input[type="submit"]:hover {
-    background-color: #3A5DB0; /* Darker blue hover effect */
-}
-
-/* Map Styling */
-.map-container iframe {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
-}
+        text-decoration: underline; 
+        
+        } 
+        
+         
+        
+         
+        
+        .form-map-container { 
+        
+        display: flex; 
+        
+        justify-content: space-between; 
+        
+        flex-wrap: wrap; 
+        
+        background-color: #FFFFFF;  
+        
+        padding: 20px; 
+        
+        margin: 10px; 
+        
+        max-width: 80%; 
+        
+        border-radius: 15px;  
+        
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        
+        align-items: center; 
+        
+        } 
+        
+         
+        
+         
+        
+        .form-container, .map-container { 
+        
+        flex: 1; 
+        
+        padding: 20px; 
+        
+        } 
+        
+         
+        
+         
+        
+        form { 
+        
+        display: flex; 
+        
+        flex-direction: column; 
+        
+        } 
+        
+         
+        
+        form label { 
+        
+        font-weight: bold; 
+        
+        } 
+        
+         
+        
+        form input, form textarea { 
+        
+        padding: 10px; 
+        
+        border: 1px solid #ccc; 
+        
+        border-radius: 5px; 
+        
+        width: 100%; 
+        
+        box-sizing: border-box; 
+        
+        } 
+        
+         
+        
+        form input[type="submit"] { 
+        
+        background-color: #4D79D8;  
+        
+        color: white; 
+        
+        font-weight: bold; 
+        
+        border: none; 
+        
+        cursor: pointer; 
+        
+        padding: 12px; 
+        
+        border-radius: 5px; 
+        
+        margin-top: 10px; 
+        
+        width: auto; 
+        
+        align-items: center; 
+        
+        } 
+        
+         
+        
+        form input[type="submit"]:hover { 
+        
+        background-color: #3A5DB0;  
+        
+        } 
+        
+         
+        
+         
+        
+        .map-container iframe { 
+        
+        width: 100%; 
+        
+        height: 300px; 
+        
+        border-radius: 10px; 
+        
+        } 
+        
+         
+        
+         
+        
+         
+        
+         
+        
+         
+        
+        .flex-container img { 
+        
+        width: 20px;  
+        
+        height: auto; 
+        
+        display: inline-block; 
+        
+        vertical-align: left;  
+        
+        margin-right: 10px;  
+        
+        } 
+        
+         
+        
+         
+     
+    
+     
