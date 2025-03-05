@@ -184,7 +184,7 @@ img {
 .food-options label {
     display: flex;
     align-items: center; /* Align radio buttons and text */
-    gap: 5px; /* Minimal space between the button and text */
+    gap: .2px; /* Minimal space between the button and text */
     font-size: 16px; /* Keep text readable */
     font-weight: normal; /* Ensure consistency */
     margin-bottom: 0px; /* Remove unnecessary spacing */
@@ -195,7 +195,7 @@ img {
 input[type="radio"] {
     margin: 0; /* Remove default browser margins */
     padding: 0; /* Remove any extra space */
-    vertical-align: middle; /* Ensure the button aligns vertically with text */
+    vertical-align: right; /* Ensure the button aligns vertically with text */
     transform: scale(1); /* Keep standard size */
 }
 
