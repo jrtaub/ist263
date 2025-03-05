@@ -167,6 +167,7 @@ img {
         margin-bottom: 2px;
         gap: .2px; /* Adjust spacing between the email and LinkedIn link */
         align-items: center; /* Ensures proper alignment */
+        flex-direction: column;
 }
 
 
