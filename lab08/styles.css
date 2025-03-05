@@ -172,6 +172,11 @@ img {
     margin-bottom: 20px;
 }
 
+.form-heading {
+    font-weight: bold;
+    
+}
+
 .food-options {
     display: flex;
     flex-direction: column; /* Keep items stacked */
