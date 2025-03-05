@@ -99,8 +99,7 @@ img {
         } 
         .formlabel-container {
             font-weight: bold; 
-            margin-top: -20px; /* Moves the form higher */
-            padding-top: 0}
+            }
     
         .forminput-container, .formtextarea-container { 
         padding: 10px; 
@@ -186,19 +185,12 @@ img {
     
 }
 
-.food-options {
-    display: flex;
-    flex-direction: column; 
-    gap: .10px; 
-}
 
 
 
 
 
-.container {
-    display: flex;
-    justify-content: space-between; /* Ensures equal spacing */
-    align-items: stretch; /* Ensures both boxes are the same height */
-    gap: 20px; /* Adjusts space between boxes */
+.form-section {
+    margin-top: 5px; /* Move sections closer to the top */
+    margin-bottom: 5px; /* Minimize spacing between elements */
 }
