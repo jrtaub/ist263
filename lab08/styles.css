@@ -130,6 +130,17 @@ img {
         } 
         
         
+.linkedin-container {
+    display: flex;
+    align-items: center; 
+}
+
+.linkedin-logo {
+    width: 20px; 
+    height: auto;
+    margin-right: 5px; 
+}
+
         
          
         
