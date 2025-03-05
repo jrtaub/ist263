@@ -175,3 +175,11 @@ img {
     margin-bottom: 20px;
 }
 
+.food-options label {
+    display: flex;
+    align-items: center; /* Align radio button and text */
+    gap: 5px; /* Reduce space between the button and text */
+    font-size: 16px; /* Keep text readable */
+    margin-bottom: 0; /* Remove unnecessary spacing */
+    line-height: 1; /* Minimize vertical spacing */
+}
