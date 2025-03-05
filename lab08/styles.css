@@ -89,7 +89,7 @@ img {
         .form-containser { 
         display: flex; 
         flex-direction: column;
-        
+        margin-top: 2px;
         gap: 0px;
     
         } 
@@ -175,7 +175,7 @@ img {
 .form-heading {
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: 2px;
+    
 }
 
 .food-options {
