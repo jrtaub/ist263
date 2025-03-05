@@ -89,7 +89,7 @@ img {
         .form-containser { 
         display: flex; 
         flex-direction: column;
-        
+        font-weight: bold;
         gap: 0px;
     
         } 
