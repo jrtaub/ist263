@@ -89,7 +89,7 @@ img {
         display: flex; 
         flex-direction: column; 
         align-items: right;  /* Align radio button and text */
-        
+        gap: 0px;
     
         } 
         form label { 
