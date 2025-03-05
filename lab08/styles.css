@@ -89,13 +89,14 @@ img {
         display: flex; 
         flex-direction: column; 
         align-items: right;  /* Align radio button and text */
+        gap: 6px;
     
         } 
         form label { 
         font-weight: bold; 
         align-items: right;
         line-height: 1;
-        gap: 6px;
+        
         } 
     
         form input, form textarea { 
@@ -155,11 +156,13 @@ img {
 }
 
 .contact-info {
-    margin-bottom: 5px; /* Reduce space below the address */
+    margin: 0px; /* Reduce space below the address */
 }
 
 
     .social-links {
+        display: flex;
+    flex-direction: column;
         margin-top: 2px; /* Reduce space above the LinkedIn & email */
         gap: .2px; /* Adjust spacing between the email and LinkedIn link */
         align-items: center; /* Ensures proper alignment */
