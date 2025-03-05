@@ -88,6 +88,8 @@ img {
         form { 
         display: flex; 
         flex-direction: column; 
+        align-items: center;  /* Align radio button and text */
+    gap: 8px;
         } 
         form label { 
         font-weight: bold; 
