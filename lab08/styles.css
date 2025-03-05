@@ -181,23 +181,7 @@ img {
     gap: .10px; /* Minimize space between rows */
 }
 
-.food-options label {
-    display: flex;
-    align-items: right; /* Align radio buttons and text */
-    gap: .11px; /* Minimal space between the button and text */
-    font-size: 16px; /* Keep text readable */
-    font-weight: normal; /* Ensure consistency */
-    margin-bottom: 0px; /* Remove unnecessary spacing */
-    line-height: 1; /* Keep items close together */
-    white-space: nowrap; /* Prevent wrapping */
-}
 
-input[type="radio"] {
-    margin: 0; /* Remove default browser margins */
-    padding: 0; /* Remove any extra space */
-    vertical-align: right; /* Ensure the button aligns vertically with text */
-    transform: scale(1); /* Keep standard size */
-}
 
 
 
