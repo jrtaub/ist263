@@ -177,14 +177,15 @@ img {
 
 .food-options {
     display: flex;
-    flex-direction: column; /* Keep items stacked */
-    gap: 0px; /* Reduce space between choices */
+    flex-direction: column; /* Stack items vertically */
+    gap: 1px; /* Reduce space between choices */
 }
 
 .food-options label {
     display: flex;
-    gap: 1px; /* Reduce space between the button and text */
+    align-items: center; /* Align radio button and text */
+    gap: 3px; /* Reduce space between the button and text */
     font-size: 16px; /* Keep text readable */
-    margin-bottom: 0; /* Remove unnecessary spacing */
+    margin-bottom: 0; /* Remove extra bottom spacing */
     line-height: 1; /* Minimize vertical spacing */
 }
