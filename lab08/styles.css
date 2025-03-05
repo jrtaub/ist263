@@ -129,20 +129,24 @@ img {
         border-radius: 10px;
         } 
         
-        
+.contact-links {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+
 .linkedin-container {
     display: flex;
     align-items: center; 
 }
 
 .linkedin-logo {
-    width: 20px; 
+    width: 40px; 
     height: auto;
-    margin-right: 15px; 
+    margin-right: 8px; 
 }
 
-        
-         
         
          
      
