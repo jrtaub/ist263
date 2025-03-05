@@ -49,14 +49,13 @@ img {
 
 .flex-container { 
     display: flex;  
-     
     align-items: center;  
     flex-wrap: wrap;  
     background-color: #FFFFFF;  
     padding: 20px; 
     border-radius: 15px;  
     max-width: 80%; 
-    margin: 10px; 
+    margin: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     } 
     
@@ -71,7 +70,7 @@ img {
         
         .form-map-container { 
         display: flex; 
-        justify-content: space-between; 
+         
         flex-wrap: wrap; 
         background-color: #FFFFFF;  
         padding: 20px; 
