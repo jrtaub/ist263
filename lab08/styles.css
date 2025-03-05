@@ -178,7 +178,7 @@ img {
 .food-options {
     display: flex;
     flex-direction: column; /* Keep items stacked */
-    gap: .2px; /* Minimize space between rows */
+    gap: .10px; /* Minimize space between rows */
 }
 
 .food-options label {
