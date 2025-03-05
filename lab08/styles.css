@@ -164,6 +164,6 @@ img {
 .food-options label {
     display: flex;
     align-items: center; 
-    gap: 2px; /* Reduce space between radio buttons and labels */
-    margin-bottom: 1px; /* Reduce space between options */
+    gap: 0px; /* Reduce space between radio buttons and labels */
+    margin-bottom: .5px; /* Reduce space between options */
 }
