@@ -85,19 +85,15 @@ img {
         flex: 1; 
         padding: 10px; 
         } 
-        form { 
+
+        .form-containser { 
         display: flex; 
         flex-direction: column;
         
         gap: 0px;
     
         } 
-        form label { 
-        font-weight: bold; 
-       
-       
         
-        } 
     
         form input, form textarea { 
         padding: 10px; 
