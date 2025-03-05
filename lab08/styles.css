@@ -93,6 +93,7 @@ img {
         } 
         form label { 
         font-weight: bold; 
+        align-items: right;
         } 
     
         form input, form textarea { 
