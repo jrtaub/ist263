@@ -135,20 +135,7 @@ form input[type="submit"]:hover {
 }
 
 
-@media (max-width: 768px) {
-    .flex-container,
-    .form-map-container {
-        flex-direction: column;
-    }
 
-    .flex-container {
-        text-align: left;
-    }
-
-    .form-container, .map-container {
-        width: 100%;
-    }
-}
 
 
 .flex-container img {
