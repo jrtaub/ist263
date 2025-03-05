@@ -88,7 +88,7 @@ img {
         form { 
         display: flex; 
         flex-direction: column; 
-        align-items: left;  /* Align radio button and text */
+        align-items: right;  /* Align radio button and text */
     
         } 
         form label { 
@@ -163,9 +163,4 @@ img {
 }
 
 
-.food-options label {
-    display: flex;
-    align-items: right; 
-    
-   
-}
+
