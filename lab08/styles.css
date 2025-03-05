@@ -86,6 +86,12 @@ img {
         padding: 10px; 
         } 
 
+        .form-section {
+            margin-top: 5px; /* Reduce space at the top */
+            margin-bottom: 5px; /* Minimize space between sections */
+        }
+        
+
         .form-containser { 
         display: flex; 
         flex-direction: column;
