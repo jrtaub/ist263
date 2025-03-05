@@ -50,7 +50,6 @@ img {
 .flex-container { 
     display: flex;  
     align-items: center;  
-    text-align: center;
     flex-wrap: wrap;  
     background-color: #FFFFFF;  
     padding: 20px; 
@@ -193,3 +192,9 @@ img {
 
 
 
+.flex-item {
+    flex: 1; 
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
