@@ -177,16 +177,18 @@ img {
 
 .food-options {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    gap: 0px; /* Remove extra spacing between choices */
+    flex-direction: column; /* Keep options stacked */
+    gap: 0px; /* Remove space between items */
 }
 
 .food-options label {
     display: flex;
-    align-items: center; /* Ensure proper alignment */
-    gap: 2px; /* Minimal space between the radio button and text */
-    font-size: 16px; /* Keep text readable */
-    margin-bottom: 0px; /* Remove extra spacing */
-    line-height: 1; /* Keep labels compact */
+    align-items: center; /* Align radio buttons and text */
+    gap: 4px; /* Minimal space between button and text */
+    font-size: 16px; /* Ensure readability */
+    font-weight: normal; /* Remove bold if not needed */
+    margin-bottom: 0px; /* Remove unnecessary spacing */
+    line-height: 1; /* Keep items close together */
 }
+
 
