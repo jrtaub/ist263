@@ -92,12 +92,13 @@ img {
         .form-containser { 
         display: flex; 
         flex-direction: column;
-        margin-top: -20px; /* Moves the form higher */
-         padding-top: 0
+        
     
         } 
         .formlabel-container {
-            font-weight: bold; }
+            font-weight: bold; 
+            margin-top: -20px; /* Moves the form higher */
+            padding-top: 0}
     
         .forminput-container, .formtextarea-container { 
         padding: 10px; 
