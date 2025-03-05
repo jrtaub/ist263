@@ -178,12 +178,12 @@ img {
 .food-options {
     display: flex;
     flex-direction: column; /* Keep items stacked */
-    gap: 0px; /* Minimize space between rows */
+    gap: .2px; /* Minimize space between rows */
 }
 
 .food-options label {
     display: flex;
-    align-items: center; /* Align radio buttons and text */
+    align-items: right; /* Align radio buttons and text */
     gap: .2px; /* Minimal space between the button and text */
     font-size: 16px; /* Keep text readable */
     font-weight: normal; /* Ensure consistency */
