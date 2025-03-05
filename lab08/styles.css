@@ -180,6 +180,8 @@ img {
 .form-heading {
     font-weight: bold;
     margin-bottom: 0px;
+    margin-top: -20px; /* Moves the form higher */
+            padding-top: 0
     
 }
 
