@@ -106,6 +106,7 @@ img {
         border-radius: 5px; 
         width: 100%; 
         box-sizing: border-box; 
+        align-items: center; 
         } 
         
          
@@ -157,17 +158,17 @@ img {
 }
 
 .contact-info {
-    margin: 0px; /* Reduce space below the address */
+    margin: 0px; 
 }
 
 
     .social-links {
         display: flex;
     flex-direction: column;
-        margin-top: 2px; /* Reduce space above the LinkedIn & email */
+        margin-top: 2px; 
         margin-bottom: 2px;
-        gap: .2px; /* Adjust spacing between the email and LinkedIn link */
-        align-items: center; /* Ensures proper alignment */
+        gap: .2px; 
+        align-items: center; 
         flex-direction: column;
 }
 
@@ -184,17 +185,11 @@ img {
 
 .food-options {
     display: flex;
-    flex-direction: column; /* Keep items stacked */
-    gap: .10px; /* Minimize space between rows */
+    flex-direction: column; 
+    gap: .10px; 
 }
 
 
 
 
 
-.flex-item {
-    flex: 1; 
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-}
