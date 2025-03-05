@@ -129,10 +129,12 @@ img {
         border-radius: 10px;
         } 
         
+
 .contact-links {
     display: flex;
     align-items: center; 
     gap: 20px; 
+    flex-wrap: wrap; /
 }
 
 
@@ -141,14 +143,10 @@ img {
     align-items: center; 
 }
 
+
 .linkedin-logo {
-    width: 100px; 
+    width: 75px; 
     height: auto;
     
 }
 
-        
-         
-     
-    
-     
