@@ -164,6 +164,7 @@ img {
         display: flex;
     flex-direction: column;
         margin-top: 2px; /* Reduce space above the LinkedIn & email */
+        margin-bottom: 2px;
         gap: .2px; /* Adjust spacing between the email and LinkedIn link */
         align-items: center; /* Ensures proper alignment */
 }
