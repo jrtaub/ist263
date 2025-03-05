@@ -157,13 +157,13 @@ img {
 .social-links {
     margin-top: 5px; /* Reduce space above the LinkedIn & email */
       
-    gap: 10px; /* Space between them */
+    gap: 5px; /* Space between them */
 }
 
 
 .food-options label {
     display: flex;
     align-items: center; 
-    gap: 5px; /* Reduce space between radio buttons and labels */
-    margin-bottom: 3px; /* Reduce space between options */
+    gap: 2px; /* Reduce space between radio buttons and labels */
+    margin-bottom: 1px; /* Reduce space between options */
 }
