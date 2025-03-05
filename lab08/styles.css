@@ -177,18 +177,20 @@ img {
 
 .food-options {
     display: flex;
-    flex-direction: column; /* Keep options stacked */
-    gap: 0px; /* Remove space between items */
+    flex-direction: column; /* Stack items */
+    gap: 0px; /* Eliminate space between rows */
 }
 
 .food-options label {
     display: flex;
-    align-items: center; /* Align radio buttons and text */
-    gap: .5px; /* Minimal space between button and text */
+    align-items: center; /* Keep radio buttons and text aligned */
+    gap: 2px; /* Reduce space between radio button and text */
     font-size: 16px; /* Ensure readability */
-    font-weight: normal; /* Remove bold if not needed */
+    font-weight: normal; /* Remove bold if necessary */
     margin-bottom: 0px; /* Remove unnecessary spacing */
-    line-height: 1; /* Keep items close together */
+    line-height: 1; /* Tighten line spacing */
+    white-space: nowrap; /* Prevent wrapping */
 }
+
 
 
