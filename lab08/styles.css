@@ -196,8 +196,8 @@ img {
 
 
 
-.flex-container {
+.container {
     display: flex;
-    justify-content: space-between; /* Evenly distribute space */
-    align-items: stretch; /* Ensure all items match height */
-    gap: 10px; /* Adjust space between boxes */
+    justify-content: space-between; /* Ensures equal spacing */
+    align-items: stretch; /* Ensures both boxes are the same height */
+    gap: 20px; /* Adjusts space between boxes */
