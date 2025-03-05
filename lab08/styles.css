@@ -154,10 +154,12 @@ img {
     margin-bottom: 5px; /* Reduce space below the address */
 }
 
-.social-links {
-    margin-top: 5px; /* Reduce space above the LinkedIn & email */
-      
-    gap: 5px; /* Space between them */
+
+    .social-links {
+        margin-top: 2px; /* Reduce space above the LinkedIn & email */
+        display: flex;  
+        gap: 8px; /* Adjust spacing between the email and LinkedIn link */
+        align-items: center; /* Ensures proper alignment */
 }
 
 
