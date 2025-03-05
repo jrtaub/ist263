@@ -93,7 +93,7 @@ img {
         gap: 0px;
     
         } 
-        .form-label {
+        .formlabel-container {
             font-weight: bold; }
     
         .forminput-container, .formtextarea-container { 
