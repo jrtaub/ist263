@@ -84,6 +84,7 @@ img {
         .form-container, .map-container { 
         flex: 1; 
         padding: 10px; 
+        align-items: center; 
         } 
 
         
@@ -92,6 +93,7 @@ img {
         .form-containser { 
         display: flex; 
         flex-direction: column;
+        align-items: center; 
         
     
         } 
@@ -180,8 +182,7 @@ img {
 .form-heading {
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: -20px; /* Moves the form higher */
-            padding-top: 0
+    
     
 }
 
