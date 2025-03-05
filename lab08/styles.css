@@ -170,5 +170,8 @@ img {
         flex-direction: column;
 }
 
-
+.address-heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
