@@ -47,51 +47,58 @@ img {
     border-radius: 8px; 
 }
 
-.flex-container {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    flex-wrap: wrap; 
-    background-color: #FFFFFF; 
+.address-container {
+    background-color: #FFFFFF; /* White background */
     padding: 20px;
-    border-radius: 15px; 
+    border-radius: 15px; /* Rounded corners */
     max-width: 80%;
-    margin: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 30px auto; /* Centers and adds spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-
-.flex-container p {
-    margin: 5px 
+/* Address and Contact Links */
+.address-container p {
+    margin: 5px 0;
 }
 
+.address-container a {
+    color: #0047AB;
+    font-weight: bold;
+}
 
-
-.flex-container a:hover {
+.address-container a:hover {
     text-decoration: underline;
 }
 
+/* LinkedIn Logo Styling */
+.linkedin-logo {
+    width: 18px; /* Smaller size */
+    height: auto;
+    display: inline-block; /* Keeps it inline with text */
+    vertical-align: middle; /* Aligns with text */
+    margin-right: 5px; /* Adds space between logo and text */
+}
 
+/* Form and Map Section */
 .form-map-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF; /* White background */
     padding: 20px;
-     margin: 10px;
+    margin: 0 auto 30px auto;
     max-width: 80%;
-    border-radius: 15px; 
+    border-radius: 15px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    align-items: center;
 }
 
-
+/* Form and Map Individual Containers */
 .form-container, .map-container {
     flex: 1;
     padding: 20px;
 }
 
-
+/* Form Styling */
 form {
     display: flex;
     flex-direction: column;
@@ -99,7 +106,7 @@ form {
 
 form label {
     font-weight: bold;
-    
+    margin: 10px 0 5px;
 }
 
 form input, form textarea {
@@ -111,37 +118,24 @@ form input, form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #4D79D8; 
+    background-color: #4D79D8; /* Blue button */
     color: white;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    padding: 12px;
+    padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
     width: auto;
-    align-items: center;
 }
 
 form input[type="submit"]:hover {
-    background-color: #3A5DB0; 
+    background-color: #3A5DB0; /* Darker blue hover effect */
 }
 
-
+/* Map Styling */
 .map-container iframe {
     width: 100%;
     height: 300px;
     border-radius: 10px;
-}
-
-
-
-
-
-.flex-container img {
-    width: 20px; 
-    height: auto;
-    display: inline-block;
-    vertical-align: left; 
-    margin-right: 10px; 
 }
