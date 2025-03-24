@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>More CSS</title>
+       <style>
+        p {text-align: center;}
+        .cbox{border: #00FF00 2px solid;
+        width: 60%;
+    margin: 0 auto;
+}
+
+.outercontainer{display: flex;
+border: #ff0000 2px solid;
+padding: 1em;
+justify-content: flex-end;}
+
+.outercontainer div{ border: #0000ff 1px solid;
+padding: 1 em;
+margin: 1 em;
+flex: 1;
+width: 15%;}
+
+        </style>
+    </head>
+<body>
+    <p> Contect goes here</p>
+    <div class="cbox">
+        <p>Please center this box.</p>
+
+</body>
+</html>
+
+
+
