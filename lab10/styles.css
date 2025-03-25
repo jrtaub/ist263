@@ -191,6 +191,8 @@ img {
        
         width: 100%;
         display: block;
+        margin-top: 5px; 
+        margin-bottom: 5px;
     }
     nav a span {
         display: none; 
