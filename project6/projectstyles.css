@@ -6,11 +6,73 @@ body {
 
 
 nav {
-    background-color: #ddd2d2; 
+    background-color: #c6c6c6; 
     padding: 10px;
     margin-bottom: 30px;
 }
 
-nav a { color: #eeeae7;}
+nav a { color: #ffffff;}
 
-nav a:hover {background-color: #9fd6b2;}
+nav a:hover {background-color: #ffc3ff;}
+
+.jamie { 
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;
+    background-color: #dbf4ff; 
+    padding: 20px; 
+    border-radius: 15px;  
+    max-width: 80%; 
+    margin: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    } 
+
+    .nina { 
+        display: flex;  
+        align-items: center;  
+        justify-content: space-between;
+        background-color: #dbf4ff; 
+        padding: 20px; 
+        border-radius: 15px;  
+        max-width: 80%; 
+        margin: 20px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        } 
+
+        .michelle { 
+            display: flex;  
+            align-items: center;  
+            justify-content: space-between;
+            background-color: #dbf4ff; 
+            padding: 20px; 
+            border-radius: 15px;  
+            max-width: 80%; 
+            margin: 20px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+            } 
+
+            .page3 {
+                float: center; 
+                margin: 0 0 10px 15px; 
+                max-width: 250px; 
+                height: auto; 
+                border-radius: 8px; 
+                flex-wrap: wrap;  
+                justify-content: space-between;
+                padding: 20px; 
+            }
+
+            h1, h2, h3, h4 {color: #0047AB;}
+
+            @media screen and (max-width: 768px) {
+                nav a {
+                   
+                    width: 100%;
+                    display: block;
+                    margin-top: 5px; 
+                    margin-bottom: 5px;
+                }
+                nav a span {
+                    display: none; 
+                }
+            }
