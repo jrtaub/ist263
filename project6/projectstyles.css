@@ -1,0 +1,16 @@
+body {
+    background-color: #ffffff; 
+    color: #121212; 
+    font-family: Georgia, serif;
+}
+
+
+nav {
+    background-color: #ddd2d2; 
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a { color: #eeeae7;}
+
+nav a:hover {background-color: #9fd6b2;}
