@@ -13,7 +13,7 @@
         function TryAgain () {
             document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again';
         }
-        function ShuffleShells() {
+        function ShuffleShells () {
             document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
         }
     </script>
@@ -29,7 +29,7 @@
 <body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
     <div class="container">
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="fisrt" alt="first walnut" onclick="WinnerMessage ();">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="first" alt="first walnut" onclick="WinnerMessage ();">
     <img src="https://peopel-su.github.io/ist263/images/walnut.png"  id="second" alt="second walnut" onclick="TryAgain ();">
     <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="third" alt="third walnut" onclick="TryAgain ();">
     </div>
