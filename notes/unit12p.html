@@ -4,24 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Participation 12</title>
-    <style>
-        .text-container {
-            font-size: 24px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-
-    <div id="textDiv" class="text-container" onclick="changeText()">Syracuse University</div>
-
     <script>
         function changeText() {
-            var textDiv = document.getElementById("textDiv");
-            textDiv.innerHTML = "Orange Nation"; 
-            textDiv.style.color = "orange"; 
+            document.getElementById("cuse").innerHTML = "<span style='color: orange;'>Orange Nation</span>";
         }
     </script>
-
+</head>
+<body>
+    <h1>Text Change Example</h1>
+    <p onclick="changeText();" id="cuse">Syracuse University</p>
 </body>
 </html>
