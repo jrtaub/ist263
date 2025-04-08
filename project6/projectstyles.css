@@ -72,6 +72,19 @@ nav a:hover {background-color: #ffc3ff;}
             }
     
           
+            @media screen and (max-width: 768px) {
+                nav a {
+                   
+                    width: 100%;
+                    display: block;
+                    margin-top: 5px; 
+                    margin-bottom: 5px;
+                }
+                nav a span {
+                    display: none; 
+                }
+            }
+
             @media (max-width: 600px) {
                 h1 {
                     font-size: 20px; /* Smaller heading */
@@ -79,14 +92,6 @@ nav a:hover {background-color: #ffc3ff;}
     
                 .jamie p, .nina p, .michelle p {
                     font-size: 14px; /* Adjust font size */
-                }
-    
-                nav {
-                    font-size: 14px;
-                }
-    
-                nav a {
-                    padding: 0 5px; /* Reduce space between links */
                 }
             }
 
