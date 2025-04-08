@@ -15,9 +15,17 @@
              margin: auto; /* margin auto is centering this container */        
          }
          #bigimages {margin-right: 100px;}
-         #planetinfo {padding: 100px;}
+         #planetinfo {padding: 100px;
+        float: left;
+        clear: both;
+        text-align: left;}
+  
          #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
          /* ^^ margin auto is centering this container */
+
+    
+
+
          #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb 
          {width: 100px;}
 
@@ -27,9 +35,10 @@
 }
 
 
+
      </style>
      <script>
-     window.onload = function() {
+     function change() {
     document.getElementById('mercury').style.display = 'block';
     document.getElementById('mercuryinfo').style.display = 'block';
 };
