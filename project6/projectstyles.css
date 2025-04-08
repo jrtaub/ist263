@@ -1,111 +1,109 @@
 body {
-    background-color: #ffffff; 
-    color: #121212; 
+    background-color: #ffffff;
+    color: #121212;
     font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
 }
-
 
 nav {
-    background-color: #c6c6c6; 
+    background-color: #c6c6c6;
     padding: 10px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
-nav a { color: #ffffff;}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
 
-nav a:hover {background-color: #ffc3ff;}
+nav a:hover {
+    background-color: #ffc3ff;
+}
 
-.jamie { 
-    display: flex;  
-    align-items: center;  
-    justify-content: space-between;
-    background-color: #dbf4ff; 
-    padding: 20px; 
-    border-radius: 15px;  
-    max-width: 80%; 
-    margin: 20px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-} 
-
-.nina { 
-    display: flex;  
-    align-items: center;  
-    justify-content: space-between;
-    background-color: #dbf4ff; 
-    padding: 20px; 
-    border-radius: 15px;  
-    max-width: 80%; 
-    margin: 20px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-} 
-
-.michelle { 
-    display: flex;  
-    align-items: center;  
-    justify-content: space-between;
-    background-color: #dbf4ff; 
-    padding: 20px; 
-    border-radius: 15px;  
-    max-width: 80%; 
-    margin: 20px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-} 
-
+/* Flexbox layout for stories */
 .page3 {
-    float: center; 
-    margin: 0 0 10px 15px; 
-    max-width: 250px; 
-    height: auto; 
-    border-radius: 8px; 
-    flex-wrap: wrap;  
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px; 
+    padding: 20px;
+    gap: 20px;
 }
 
-h1, h2, h3, h4 {
+.story {
+    background-color: #dbf4ff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%; /* Each story takes 30% width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.story img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Text adjustments */
+h1 {
+    text-align: center;
     color: #0047AB;
+    margin-bottom: 20px;
 }
 
+.story p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 10px;
+}
 
-
+/* Mobile-first styles */
 @media (max-width: 768px) {
-    body {
-        font-size: 16px;
-        padding: 5px;
+    nav a {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .page3 {
+        flex-direction: column; /* Stack the stories on mobile */
+    }
+
+    .story {
+        width: 100%; /* Each story takes full width on mobile */
     }
 
     h1 {
-        font-size: 22px;  /* Adjust heading size for mobile */
-        margin-bottom: 15px;
+        font-size: 22px;
     }
 
-    .jamie p, .nina p, .michelle p {
-        font-size: 14px;  /* Make the text more readable on small screens */
-        
-        padding: 0 10px; /* Reduce padding */
-        width: 100%;
-        margin: 0 auto;
-        
+    .story p {
+        font-size: 12px;
     }
-
-    nav a {
-        display: block;
-        width: 100%;  /* Stack navigation links vertically */
-        margin-bottom: 5px;
-    }
-
-    
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
 
+    h1 {
+        font-size: 20px;
+    }
 
+    .story p {
+        font-size: 12px;
+    }
 
-
-
-
-
-
-
+    .page3 {
+        padding: 10px;
+    }
+}
 
 
 
