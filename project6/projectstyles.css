@@ -66,7 +66,7 @@ h1, h2, h3, h4 {
     color: #0047AB;
 }
 
-/* Mobile-friendly styles */
+
 @media screen and (max-width: 768px) {
     nav a {
         width: 100%;
@@ -80,14 +80,14 @@ h1, h2, h3, h4 {
 }
 
 .jamie, .nina, .michelle { 
-    display: block;  /* Change from flex to block for better text handling */
+    display: block;  
     background-color: #dbf4ff; 
     padding: 20px; 
     border-radius: 15px;  
     max-width: 80%; 
-    margin: 20px auto; /* Center the div and add margin */
+    margin: 20px auto; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    text-align: left;  /* Ensures text aligns properly */
+    text-align: left;  
 }
 
 .page3 {
@@ -96,12 +96,12 @@ h1, h2, h3, h4 {
     height: auto; 
     border-radius: 8px; 
     display: block;
-    padding: 10px; /* Adjust padding */
+    padding: 10px; 
 }
 
 .jamie p, .nina p, .michelle p {
-    max-width: 100%;  /* Allow paragraphs to fit within the container */
+    max-width: 100%; 
     margin: 0 auto;
-    line-height: 1.5;
-    font-size: 16px;  /* Ensure font is readable */
+    
+    font-size: 16px;  
 }
