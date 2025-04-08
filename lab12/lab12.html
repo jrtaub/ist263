@@ -4,7 +4,7 @@
      <meta charset="utf-8">
      <title>Lab 12 Slideshow</title>
      <style>
-         body {
+      body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #111111;
     color: #ffffff;
@@ -17,16 +17,16 @@
 }
 
 #planetinfo {
-    padding: 100px;
-    float: left; /* Float the planet info */
-    width: 55%; /* Adjust width to create space for the image */
+    padding: 20px;
+    float: left; /* Float the planet text to the left */
+    width: 55%; /* Set width to create space for the image */
     text-align: left;
-    margin-top: 0; /* Remove any top margin for alignment */
+    margin-top: 0;
+    margin-left: 20px; /* Space between text and image */
 }
 
 #bigimages {
-    float: left; /* Float the image container */
-    margin-right: 20px;
+    float: left; /* Float the image to the left */
 }
 
 #planetinfo h1 {
@@ -54,12 +54,6 @@
     margin-right: 10px; /* Space out the thumbnails */
 }
 
-/* Hide all planets except the currently displayed one */
-#venus, #earth, #mars, #jupiter, #saturn, #uranus, #neptune,
-#venusinfo, #earthinfo, #marsinfo, #jupiterinfo, #saturninfo, #uranusinfo, #neptuneinfo {
-    display: none;
-}
-
 #bigimages img {
     width: 500px; /* Set a fixed width for the main image */
     height: auto;
@@ -70,6 +64,13 @@
     display: block;
     clear: both;
 }
+
+/* Hide all planets except the currently displayed one */
+#venus, #earth, #mars, #jupiter, #saturn, #uranus, #neptune,
+#venusinfo, #earthinfo, #marsinfo, #jupiterinfo, #saturninfo, #uranusinfo, #neptuneinfo {
+    display: none;
+}
+
 
 
 
