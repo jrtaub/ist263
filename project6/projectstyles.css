@@ -77,6 +77,15 @@ nav a:hover {background-color: #ffc3ff;}
                 nav a span {
                     display: none; 
                 }
+
+                
+                    h1 {
+                        font-size: 20px; /* Smaller heading */
+                    }
+        
+                    .jamie p, .nina p, .michelle p {
+                        font-size: 14px; /* Adjust font size */
+                    }
             }
 
 
