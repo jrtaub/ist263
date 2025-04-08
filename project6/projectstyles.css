@@ -64,12 +64,7 @@ nav a:hover {background-color: #ffc3ff;}
 
             h1, h2, h3, h4 {color: #0047AB;}
 
-            img.page3 {
-                width: 100%;
-                height: auto;
-                border-radius: 8px;
-                margin-bottom: 15px;
-            }
+            
     
           
             @media screen and (max-width: 768px) {
