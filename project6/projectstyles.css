@@ -67,32 +67,48 @@ h1, h2, h3, h4 {
 }
 
 
-@media screen and (max-width: 768px) {
-    nav a {
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 22px;  /* Adjust heading size for mobile */
+        margin-bottom: 15px;
+    }
+
+    .jamie p, .nina p, .michelle p {
+        font-size: 14px;  /* Make the text more readable on small screens */
+        
+        padding: 0 10px; /* Reduce padding */
         width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    nav a {
         display: block;
-        margin-top: 5px; 
+        width: 100%;  /* Stack navigation links vertically */
         margin-bottom: 5px;
     }
-    nav a span {
-        display: none; 
-    }
-}
 
-
-
-.page3 {
-    margin: 0 auto 10px; 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    display: block;
-    padding: 10px; 
-}
-
-.jamie p, .nina p, .michelle p {
-    max-width: 100%; 
-    margin: 0 auto;
     
-    font-size: 16px;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
