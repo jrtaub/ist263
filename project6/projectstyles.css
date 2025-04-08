@@ -64,28 +64,48 @@ nav a:hover {background-color: #ffc3ff;}
 
             h1, h2, h3, h4 {color: #0047AB;}
 
-           
-
-            @media screen and (max-width: 768px) {
+            img.page3 {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 15px;
+            }
+    
+            /* Adjust content for mobile screens */
+            .page3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .jamie, .nina, .michelle {
+                margin-bottom: 30px;
+                text-align: center;
+            }
+    
+            .jamie p, .nina p, .michelle p {
+                max-width: 600px; /* Limit text width for readability */
+                margin: 10px auto;
+                padding: 0 15px;
+            }
+    
+            /* Responsive design for small screens */
+            @media (max-width: 600px) {
+                h1 {
+                    font-size: 20px; /* Smaller heading */
+                }
+    
+                .jamie p, .nina p, .michelle p {
+                    font-size: 14px; /* Adjust font size */
+                }
+    
+                nav {
+                    font-size: 14px;
+                }
+    
                 nav a {
-                   
-                    width: 100%;
-                    display: block;
-                    margin-top: 5px; 
-                    margin-bottom: 5px;
+                    padding: 0 5px; /* Reduce space between links */
                 }
-                nav a span {
-                    display: none; 
-                }
-
-                
-                    h1 {
-                        font-size: 20px; /* Smaller heading */
-                    }
-        
-                    .jamie p, .nina p, .michelle p {
-                        font-size: 14px; /* Adjust font size */
-                    }
             }
 
 
