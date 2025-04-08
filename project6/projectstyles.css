@@ -64,10 +64,12 @@ nav a:hover {background-color: #ffc3ff;}
 
             h1, h2, h3, h4 {color: #0047AB;}
 
-            @media screen and (max-width: 768px) {
+           
+
+            @media screen and (max-width: 700px) {
                 nav a {
                    
-                    width: 50%;
+                    width: 100%;
                     display: block;
                     margin-top: 5px; 
                     margin-bottom: 5px;
