@@ -16,42 +16,43 @@ nav a { color: #ffffff;}
 
 nav a:hover {background-color: #ffc3ff;}
 
-/* Flexbox layout for stories */
+
 .jamie { 
-    display: flex;  
+    display: flexbox;  
     align-items: center;  
     justify-content: space-between;
     background-color: #dbf4ff; 
     padding: 20px; 
     border-radius: 15px;  
-    max-width: 80%; 
+    max-width: 100%; 
     margin: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 } 
 
 .nina { 
-    display: flex;  
+    display: flexbox;  
     align-items: center;  
     justify-content: space-between;
     background-color: #dbf4ff; 
     padding: 20px; 
     border-radius: 15px;  
-    max-width: 80%; 
+    max-width: 100%; 
     margin: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 } 
 
 .michelle { 
-    display: flex;  
+    display: flexbox;  
     align-items: center;  
-    justify-content: space-between;
+    justify-content: space-between;    
     background-color: #dbf4ff; 
     padding: 20px; 
     border-radius: 15px;  
-    max-width: 80%; 
+    max-width: 100%; 
     margin: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 } 
+
 
 .page3 {
     float: center; 
@@ -60,8 +61,18 @@ nav a:hover {background-color: #ffc3ff;}
     height: auto; 
     border-radius: 8px; 
     flex-wrap: wrap;  
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px; 
+    align-items: center;
+    
+}
+
+.jamie img, .nina img, .michelle img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%; 
+    height: auto;
 }
 
 h1, h2, h3, h4 {
@@ -72,21 +83,17 @@ h1, h2, h3, h4 {
 
 
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 20px; /* Smaller heading */
-    }
 
-    .jamie p, .nina p, .michelle p {
-        font-size: 14px; /* Adjust font size */
-    }
-
-    nav {
-        font-size: 14px;
-    }
-
+@media screen and (max-width: 768px) {
     nav a {
-        padding: 0 5px; /* Reduce space between links */
+       
+        width: 100%;
+        display: flex;
+        margin-top: 5px; 
+        margin-bottom: 5px;
+    }
+    nav a span {
+        display: none; 
     }
 }
 
