@@ -11,13 +11,13 @@ h1, h2, h3, h4 {color: #0047AB;}
 a {color: #cf3232;}
 
 nav {
-    background-color: #0066ff; 
+    background-color: #003d99;
     padding: 10px;
     margin-bottom: 30px;
-    font-size: 2em;
+    
 }
 
-nav a { color: #eeeae7;}
+nav a { color:  #ffffff;}
 
 nav a:hover {background-color: #b951a8;}
 
@@ -214,3 +214,5 @@ img {
     width: auto;
     height: auto;
   }
+
+  .skip-to-content{color:  #ffffff;}
