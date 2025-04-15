@@ -6,7 +6,7 @@ body {
 }
 
 
-h1, h2, h3, h4 {color: #003d99;}
+h1, h2, h3, h4 {color: #000066;}
 
 a {color: #cf3232;}
 
@@ -19,7 +19,7 @@ nav {
 
 nav a { color:  #ffffff;}
 
-nav a:hover {background-color: #b951a8;}
+nav a:hover {background-color: #cc0066;}
 
 
 tr.evenrow {background-color: #83c6e8;}
