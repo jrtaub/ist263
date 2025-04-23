@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <a href="#main" class="skip-to-content">Skip to Content</a>
+</head>
+<body>
+    <main id="main"></main>
+    <nav>
+        <a href="index.html">Home<span>|</span></a>
+        <a href="skills.html">Skills<span>|</span></a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Contact</h1>
+    <div class="flex-container">
+        <div class="contact-info">
+            <p class="address-heading">Address:</p>
+            <p>70 Hofstra Drive</p>
+            <p>Plainview, NY 11803</p>
+        </div>
+        <div class="social-links">
+            <p class="linkedin-container">
+                <img src="../images/linkedin.svg" alt="LinkedIn" class="linkedin-logo">
+                <a href="https://www.linkedin.com/in/jamie-taub-159713214">My LinkedIn Profile</a>
+            </p>
+            <p><a href="mailto:jrtaub@syr.edu">jrtaub@syr.edu</a></p>
+        </div>
+    </div>
+
+    <div class="form-map-container">
+        <div class="food-options">
+            <form action="https://formspree.io/f/xnnjzqrl" method="post">
+                <p class="form-heading">Please enter your name:</p>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname">
+                
+                <p class="form-heading">Please select your favorite food:</p>
+                <input type="radio" id="food1" name="food" value="pizza">
+                <label for="food1">pizza</label><br>
+
+                <input type="radio" id="food2" name="food" value="salad">
+                <label for="food2">salad</label><br>
+
+                <input type="radio" id="food3" name="food" value="sushi">
+                <label for="food3">sushi</label><br>
+
+                <br>
+                <label for="comments" class="form-heading">Comments</label><br>
+                <textarea id="comments" name="comments"></textarea>
+                <br>
+                <input type="submit" value="Send Form">
+            </form>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2251633714695!2d-73.45703476063896!3d40.801045632280356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e829f9e97c6c37%3A0x39c8ca6a8144f404!2s70%20Hofstra%20Dr%2C%20Plainview%2C%20NY%2011803!5e0!3m2!1sen!2sus!4v1738190866030!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="form-map-container"></iframe>
+    </div>
+</body>
+</html>

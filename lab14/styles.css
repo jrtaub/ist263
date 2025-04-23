@@ -1,0 +1,219 @@
+
+body {
+    background-color: #6eafd2; 
+    color: #333333; 
+    font-family: Georgia, serif;
+}
+
+
+h1, h2, h3, h4 {color: #000066;}
+
+a {color: #cf3232;}
+
+nav {
+    background-color: #003d99;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+
+nav a { color:  #ffffff;}
+
+nav a:hover {background-color: #cc0066;}
+
+
+tr.evenrow {background-color: #83c6e8;}
+
+h1 {font-size: 2em;}
+
+h2 {font-size: 1em;}
+
+.copyright {
+    float: left;
+    
+}
+
+
+.new-text {
+    float: right;
+    
+}
+
+
+img {
+    float: right; 
+    margin: 0 0 10px 15px; 
+    max-width: 250px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.flex-container { 
+    display: flex;  
+    align-items: center;  
+    flex-wrap: wrap;  
+    background-color: #FFFFFF;  
+    padding: 20px; 
+    border-radius: 15px;  
+    max-width: 80%; 
+    margin: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    } 
+    
+     
+    
+     
+    
+    .flex-container p { 
+    margin: 5px  
+    } 
+    flex-container a:hover { text-decoration: underline; } 
+        
+        .form-map-container { 
+        display: flex; 
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+        background-color: #FFFFFF;  
+        padding: 20px; 
+        margin: 20px; 
+        max-width: 80%; 
+        border-radius: 15px;  
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        align-items: center; 
+        } 
+        
+        .form-container, .map-container { 
+        flex: 1; 
+        padding: 10px; 
+        align-items: center; 
+        } 
+
+        
+        
+
+        .form-containser { 
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        
+    
+        } 
+        .formlabel-container {
+            font-weight: bold; 
+            }
+    
+        .forminput-container, .formtextarea-container { 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        width: 100%; 
+        box-sizing: border-box; 
+        align-items: center; 
+        } 
+        
+         
+        
+        form input[type="submit"] { 
+        background-color: #000066;  
+        color: white; 
+        font-weight: bold; 
+        border: none; 
+        cursor: pointer; 
+        padding: 12px; 
+        border-radius: 5px; 
+        margin-top: 10px; 
+        width: auto; 
+        align-items: center; 
+        } 
+        
+         
+        
+        form input[type="submit"]:hover { 
+        background-color: #3A5DB0;  
+        } 
+        
+        .map-container iframe { 
+        width: 100%; 
+        height: 300px; 
+        border-radius: 10px;
+        } 
+        
+
+.contact-links {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+
+.linkedin-container {
+    display: flex;
+    align-items: center; 
+}
+
+
+.linkedin-logo {
+    width: 20px; 
+    height: auto;
+    
+}
+
+.contact-info {
+    margin: 0px; 
+}
+
+
+    .social-links {
+        display: flex;
+    flex-direction: column;
+        margin-top: 2px; 
+        margin-bottom: 2px;
+        gap: .2px; 
+        align-items: center; 
+        flex-direction: column;
+}
+
+.address-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-heading {
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    nav a {
+       
+        width: 100%;
+        display: block;
+        margin-top: 5px; 
+        margin-bottom: 5px;
+    }
+    nav a span {
+        display: none; 
+    }
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+  .skip-to-content{color: #000066;}
