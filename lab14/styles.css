@@ -208,13 +208,21 @@ img {
     height: 1px;
     overflow: hidden;
     
+    
   }
 
   .skip:focus {
     position: static;
     width: auto;
     height: auto;
+    display: inline; 
+    
   }
 
   .skip-to-content{color: #000066;
-    display: none;}
+    display: none; }
+
+   
+    
+    
+    
