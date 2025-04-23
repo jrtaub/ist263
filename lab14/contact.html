@@ -6,20 +6,33 @@
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        
-        .skip-to-content {
-            display: none;
+         .skip-to-content {
+            position: absolute;  /* Remove from normal flow */
+            top: -100px;         /* Move it offscreen */
+            left: 0;
+            background-color: yellow;
+            padding: 5px;
+            z-index: 100;        /* Ensure it stays on top */
         }
+
+        /* Show the link when it receives focus */
+        .skip-to-content:focus {
+            top: 10px;          /* Move the link into view */
+            left: 10px;         /* Position it in view */
+            visibility: visible; /* Make it visible */
+        }
+        
         </style>
 </head>
 <body>
     <a href="#main" class="skip-to-content">Skip to Content</a>
     <main id="main"></main>
     <nav>
-        <a href="index.html">Home<span>|</span></a>
+        <a href= index.html>Home<span>|</span></a>
         <a href="skills.html">Skills<span>|</span></a>
         <a href="contact.html">Contact</a>
     </nav>
+    
     <h1>Contact</h1>
     <div class="flex-container">
         <div class="contact-info">

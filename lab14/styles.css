@@ -215,12 +215,15 @@ img {
     position: static;
     width: auto;
     height: auto;
-    display: inline; 
+    display:show;
     
   }
 
   .skip-to-content{color: #000066;
-    display: none; }
+    display:none;
+     }
+
+     .skip-to-content:focus{ display:show;}
 
    
     
