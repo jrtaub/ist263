@@ -6,7 +6,12 @@ body {
 }
 
 
-h1, h2, h3, h4 {color: #000066;}
+h1, h2, h3, h4 {color: #000066;
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        
+        font-style: normal;
+      }
 
 a {color: #cf3232;}
 
@@ -215,7 +220,6 @@ img {
     position: static;
     width: auto;
     height: auto;
-
     visibility: visible;
   }
 
