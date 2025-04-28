@@ -25,7 +25,7 @@ nav a:hover {background-color: #ffc3ff;}
 
 
 .jamie, .nina, .michelle { 
-    display: flex;  
+    display: flexbox;  
     align-items: center;  
     justify-content: flex-start; 
     background-color: #dbf4ff;  
@@ -237,7 +237,7 @@ section p {
 
 
 .misconceptions {
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
