@@ -4,7 +4,90 @@
         <meta charset="utf-8">
         <title>Research and Initiatives</title>
         <link rel="stylesheet" href="projectstyles.css">
-        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+    
+            .research-row {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                padding: 20px;
+            }
+    
+            .research-container, .research-section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: #e6f7ff;
+                padding: 15px;
+                border-radius: 15px;
+                width: 35%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                height: 300px;
+                cursor: pointer;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .page2 {
+            max-width: 100%;  /* Ensures image is responsive */
+            height: 500px;  /* Increased height for images */
+            width: auto;  /* Keeps the aspect ratio intact */
+            cursor: pointer;
+            padding: 15px;
+        }
+    
+            .text {
+                font-size: 1em;
+                line-height: 1.6;
+                color: #333;
+                overflow: hidden;
+            }
+    
+            /* Modal Styles */
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4); /* Overlay background */
+            }
+    
+            .modal-content {
+                background-color: #fefefe;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            }
+    
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+    
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+
+
+
+
+
     </head>
 <body>
     <a href="#main" class="skip-to-content">Skip to Content</a>
@@ -15,54 +98,39 @@
         <a href="Stories.html">Personal Stories</a>
     </nav>
 
-
     <h1>Research Studies</h1>
+
     <section class="research-row">
-    <div class="research-container">
-        <img src="../images/brain.png" alt="Research Image"class="page2">
-        <div class="text">
-    <p>A research study from December of 2024 investigated polygenic disposition in the brain of an individual 
-        with dyslexia. The research looked to further understand how predispositions for dyslexia contribute to
-        how the brain is structured and how it functions. To conduct the research, research used data from UK 
-        Biobank and analyzed information through brain imaging and genetic information.</p>
-        <p>The study helped toprovide meaningful insights into how genetic predispositions influence multiple neural pathways related 
-        to dyslexia. One conclusion that the researchers made wad that individuals with a higher genetic risk for 
-        dyslexia displayed reduced brain volume in regions such as the internal capsule and motor cortex, which 
-        are both jet regions for motor coordination and speech articulation. Furthermore, structional variations
-        were also indicated in language-processing regions. These regions include the superior temporal gyrus 
-        and inferior frontal gyrus which are both essential in phonological awareness and speech perception.</p>
-         <p>The study also emphasized differences in visual processing areas, including the occipitotemporal cortex, 
-        which is responsible for word recognition and fluent reading. Moreover, the research found alterations 
-        in the prefrontal cortex, a region associated with executive functions including working memory and 
-        cognitive control, eluting to the fact that dyslexia can involve more cognitive challenges then just 
-        reading difficulties.The research works to highlight the complex neurobiological basis of dyslexia, demonstrating that it is not caused by a single deficit but by multiple, distinct neural pathways 
-        interacting with genetic factors.</p><br>
-    </div>
-</div>
-          
+    
+        <!-- Research Container 1 -->
+        <div class="research-container" onclick="openModal(1)">
+            <div class="text">
+                <p><strong>Click On the Image!</strong></p><br>
+            </div>
+            <img src="../images/brain.png" alt="Research Image" class="page2">
+        </div>
+
+         
+        <div class="research-section" onclick="openModal(2)">
+            <div class="text">
+                <p><strong>Click On the Image!</strong></p><br>
+            </div>
+            <img src="../images/dyslexiabrain.png" alt="Research Image" class="page2">
+        </div>
+    
+    </section>
+    
+
+
+
+
+  
 
    
 
-    <div class="research-section">
-        <img src="../images/dyslexiabrain.png" alt="Research Image" class="page2">
-        <div class="text">
-        <p>The study "Disrupted network interactions serve as a neural marker of dyslexia" provides critical insights 
-            into the neural mechanisms underlying dyslexia by identifying specific disruptions in brain network 
-            interactions. Using functional MRI (fMRI), researchers found that individuals with dyslexia reveal a 
-            weaker connectivity between brains regions that are involved in phonological processing, reading, and 
-            executive function compared to typical readers. Moreover, task-related functional connectivity in 
-            networks responsible for language processing, attention, and cognitive control was significantly 
-            impaired, revealing that dyslexia is associated with impaired communication between these regions
-            rather than isolated deficits. </p>
-            <p>The study also established a direct link between these neural disruptions and behavioral performance, confirming that the severity of connectivity issues correlates with reading 
-            difficulties. The findings from this research display that dyslexia is not a localized brain dysfunction but 
-            rather many or one large, connected problem in the brain. It is important to understanding how these 
-            disrupted connections act as a sign of neural markers for dyslexia and how they may inform targeted 
-            interventions aimed at improving brain connectivity to enhance reading abilities.</p><br>
+    
+       
 
-        </div>
-    </div>
-</section>
 
 
 <section class="initiative-container">
@@ -96,7 +164,59 @@
                 </footer>
 
 
-
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(1)">&times;</span>
+                        <h2>Polygenic Disposition in Dyslexia</h2>
+                        <p>The study "Disrupted network interactions serve as a neural marker of dyslexia" provides critical insights 
+                            into the neural mechanisms underlying dyslexia by identifying specific disruptions in brain network 
+                            interactions. Using functional MRI (fMRI), researchers found that individuals with dyslexia reveal a 
+                            weaker connectivity between brains regions that are involved in phonological processing, reading, and 
+                            executive function compared to typical readers. Moreover, task-related functional connectivity in 
+                            networks responsible for language processing, attention, and cognitive control was significantly 
+                            impaired, revealing that dyslexia is associated with impaired communication between these regions
+                            rather than isolated deficits. </p>
+                            <p>The study also established a direct link between these neural disruptions and behavioral performance, confirming that the severity of connectivity issues correlates with reading 
+                            difficulties. The findings from this research display that dyslexia is not a localized brain dysfunction but 
+                            rather many or one large, connected problem in the brain. It is important to understanding how these 
+                            disrupted connections act as a sign of neural markers for dyslexia and how they may inform targeted 
+                            interventions aimed at improving brain connectivity to enhance reading abilities.</p><br>
+                    </div>
+                </div>
+                
+                <!-- Modal for Research 2 -->
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(2)">&times;</span>
+                        <h2>Disrupted Network Interactions in Dyslexia</h2>
+                        <p>The study "Disrupted network interactions serve as a neural marker of dyslexia" provides critical insights 
+                            into the neural mechanisms underlying dyslexia by identifying specific disruptions in brain network 
+                            interactions. Using functional MRI (fMRI), researchers found that individuals with dyslexia reveal a 
+                            weaker connectivity between brains regions that are involved in phonological processing, reading, and 
+                            executive function compared to typical readers. Moreover, task-related functional connectivity in 
+                            networks responsible for language processing, attention, and cognitive control was significantly 
+                            impaired, revealing that dyslexia is associated with impaired communication between these regions
+                            rather than isolated deficits. </p>
+                            <p>The study also established a direct link between these neural disruptions and behavioral performance, confirming that the severity of connectivity issues correlates with reading 
+                            difficulties. The findings from this research display that dyslexia is not a localized brain dysfunction but 
+                            rather many or one large, connected problem in the brain. It is important to understanding how these 
+                            disrupted connections act as a sign of neural markers for dyslexia and how they may inform targeted 
+                            interventions aimed at improving brain connectivity to enhance reading abilities.</p><br>
+                    </div>
+                </div>
+                
+                <script>
+                    // Function to open the corresponding modal
+                    function openModal(modalId) {
+                        document.getElementById("modal" + modalId).style.display = "block";
+                    }
+                
+                    // Function to close the modal
+                    function closeModal(modalId) {
+                        document.getElementById("modal" + modalId).style.display = "none";
+                    }
+                </script>
+                
 
 </body>
 </html>
