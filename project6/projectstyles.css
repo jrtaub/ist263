@@ -20,32 +20,32 @@ nav a:hover {background-color: #ffc3ff;}
 .jamie, .nina, .michelle { 
     display: flex;  
     align-items: center;  
-    justify-content: flex-start;  /* Changed to align items to the left */
-    background-color: #dbf4ff; 
-    padding: 20px; 
+    justify-content: flex-start; 
+    background-color: #dbf4ff;  
+    padding: 20px;  
     border-radius: 15px;  
-    max-width: 100%; 
-    margin: 20px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    flex-wrap: wrap;  /* Allowing the flex items to wrap when needed */
+    max-width: 100%;  
+    margin: 20px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
 }
 
-.page3 {
-    margin: 0 0 10px 15px; 
-    max-width: 250px; 
-    height: auto; 
-    border-radius: 8px; 
-    /* Removed flex-wrap and justify-content as they don’t apply here */
-    padding: 20px;
-}
+.page3 { 
+
+    float: center;  
+    margin: 0 0 10px 15px;  
+    max-width: 250px;  
+    height: auto;  
+    border-radius: 8px;  
+    padding: 20px;  
+    } 
 
 .jamie img, .nina img, .michelle img {
     display: block; 
     margin-left: auto;
     margin-right: auto; 
-    max-width: 100%;  /* To make sure images are responsive */
     height: auto;
 }
+
 
 h1, h2, h3, h4 {
     color: #0047AB;
