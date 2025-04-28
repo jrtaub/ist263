@@ -363,3 +363,21 @@ section p {
     line-height: 1.6;
     color: #333;
 }
+
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+  .skip-to-content{color: #000066;}
