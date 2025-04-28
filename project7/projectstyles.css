@@ -365,19 +365,20 @@ section p {
 }
 
 
-.skip {
+.skip-to-content {
     position: absolute;
     left: -10000px;
     top: auto;
     width: 1px;
     height: 1px;
     overflow: hidden;
+    display:inline;
+    color: #000066;
   }
 
-  .skip:focus {
+  .skip-to-content:focus  {
     position: static;
     width: auto;
     height: auto;
+    visibility: visible;
   }
-
-  .skip-to-content{color: #000066;}
