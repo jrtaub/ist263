@@ -17,61 +17,33 @@ nav a { color: #ffffff;}
 nav a:hover {background-color: #ffc3ff;}
 
 
-.jamie { 
-    display: flexbox;  
+.jamie, .nina, .michelle { 
+    display: flex;  
     align-items: center;  
-    justify-content: space-between;
+    justify-content: flex-start;  /* Changed to align items to the left */
     background-color: #dbf4ff; 
     padding: 20px; 
     border-radius: 15px;  
     max-width: 100%; 
     margin: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-} 
-
-.nina { 
-    display: flexbox;  
-    align-items: center;  
-    justify-content: space-between;
-    background-color: #dbf4ff; 
-    padding: 20px; 
-    border-radius: 15px;  
-    max-width: 100%; 
-    margin: 20px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-} 
-
-.michelle { 
-    display: flexbox;  
-    align-items: center;  
-    justify-content: space-between;    
-    background-color: #dbf4ff; 
-    padding: 20px; 
-    border-radius: 15px;  
-    max-width: 100%; 
-    margin: 20px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-} 
-
+    flex-wrap: wrap;  /* Allowing the flex items to wrap when needed */
+}
 
 .page3 {
-    float: center; 
     margin: 0 0 10px 15px; 
     max-width: 250px; 
     height: auto; 
     border-radius: 8px; 
-    flex-wrap: wrap;  
-    justify-content: center;
-    padding: 20px; 
-    align-items: center;
-    
+    /* Removed flex-wrap and justify-content as they don’t apply here */
+    padding: 20px;
 }
 
 .jamie img, .nina img, .michelle img {
     display: block; 
     margin-left: auto;
     margin-right: auto; 
-    width: 100%; 
+    max-width: 100%;  /* To make sure images are responsive */
     height: auto;
 }
 
@@ -79,47 +51,14 @@ h1, h2, h3, h4 {
     color: #0047AB;
 }
 
-
-
-
-
-
 @media screen and (max-width: 768px) {
     nav a {
-       
         width: 100%;
-        display: flex;
+        display: block;  /* Changed to block for proper stacking */
         margin-top: 5px; 
         margin-bottom: 5px;
     }
     nav a span {
-        display: none; 
+        display: none;  /* Removing the vertical separator */
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
