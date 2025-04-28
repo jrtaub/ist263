@@ -25,7 +25,7 @@ nav a:hover {background-color: #ffc3ff;}
 
 
 .jamie, .nina, .michelle { 
-    display: flexbox;  
+    display: flex;  
     align-items: center;  
     justify-content: flex-start; 
     background-color: #dbf4ff;  
@@ -70,7 +70,21 @@ footer {
     flex-direction: column;   
 }
 
+@media (max-width: 768px) {
+    .jamie, .nina, .michelle {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .jamie, .nina, .michelle img {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .jamie, .nina, .michelle {
+        text-align: left;
+    }
+}
 
 footer a {
     color: white;
@@ -237,7 +251,7 @@ section p {
 
 
 .misconceptions {
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
