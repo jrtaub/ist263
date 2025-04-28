@@ -6,13 +6,13 @@ body {
 
 
 nav {
-    background-color: #efabd6; 
+    background-color: #fa37b3f9; 
     padding: 10px;
     margin-bottom: 30px;
 }
 
 
-nav a { color: #ffffff;}
+nav a { color: white;}
 
 nav a:hover {background-color: #ffc3ff;}
 
