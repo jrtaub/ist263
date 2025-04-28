@@ -51,6 +51,27 @@ h1, h2, h3, h4 {
     color: #0047AB;
 }
 
+
+footer {
+    background-color: #0047AB;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
 @media screen and (max-width: 768px) {
     nav a {
         width: 100%;
