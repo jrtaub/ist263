@@ -5,8 +5,8 @@ body {
     overflow: scroll;  
 }
 html, body {
-    height: 100%;    /* Ensure the body takes up the full height of the page */
-    overflow: scroll; /* Forces the scrollbar to always be visible on the page */
+    height: 100%;    
+    overflow: scroll; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
