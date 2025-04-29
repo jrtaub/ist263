@@ -341,4 +341,21 @@ section {margin-bottom: 40px;}
     }
 }
 
+@media (max-width: 768px) {
+    .initiative-container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .initiative-container img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        text-align: left;
+    }
+}
+
   
