@@ -431,13 +431,13 @@ section p {
 
 /* Mobile-friendly layout */
 @media (max-width: 768px) {
-    .misconception {
+    .misconceptions {
         flex-direction: column;
         padding: 20px;
         text-align: center;
     }
 
-    .misconception img {
+    .misconceptions img {
         width: 80%;
         margin-bottom: 20px;
     }
