@@ -33,9 +33,9 @@
             }
     
             .page2 {
-            max-width: 100%;  /* Ensures image is responsive */
-            height: 500px;  /* Increased height for images */
-            width: auto;  /* Keeps the aspect ratio intact */
+            max-width: 100%;  
+            height: 500px;  
+            width: auto;  
             cursor: pointer;
             padding: 15px;
         }
@@ -47,7 +47,7 @@
                 overflow: hidden;
             }
     
-            /* Modal Styles */
+            
             .modal {
                 display: none;
                 position: fixed;
@@ -57,7 +57,7 @@
                 width: 100%;
                 height: 100%;
                 overflow: auto;
-                background-color: rgba(0, 0, 0, 0.4); /* Overlay background */
+                background-color: rgba(0, 0, 0, 0.4); 
             }
     
             .modal-content {
@@ -182,7 +182,7 @@
                     </div>
                 </div>
                 
-                <!-- Modal for Research 2 -->
+                
                 <div id="modal2" class="modal">
                     <div class="modal-content">
                         <span class="close" onclick="closeModal(2)">&times;</span>
@@ -204,12 +204,11 @@
                 </div>
                 
                 <script>
-                    // Function to open the corresponding modal
+                    
                     function openModal(modalId) {
                         document.getElementById("modal" + modalId).style.display = "block";
                     }
                 
-                    // Function to close the modal
                     function closeModal(modalId) {
                         document.getElementById("modal" + modalId).style.display = "none";
                     }
